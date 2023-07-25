@@ -4,7 +4,7 @@
     padding: 0;
 }
 h1 {
-    color:grey;
+    color: black;
 }
 ul {
     list-style:none;
@@ -23,10 +23,3 @@ ul {
     padding-inline-start: 40px;
     list-style-type: none;
  }
- 
-  bfilme {
-    color:pink;
-  }
-  bjogo {
-    color:purple;
-  }
