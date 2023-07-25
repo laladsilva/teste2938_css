@@ -55,7 +55,7 @@ ul {
     width: 1366px;
     margin: 0 auto;
   }
-  .article {
+  .articles {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
