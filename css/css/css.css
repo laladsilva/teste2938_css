@@ -1,0 +1,90 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #2f3640;
+    color: #f5f6fa;
+    padding: 16px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilo para a navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f5f6fa;
+    background-color: #3498db;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+/* Estilo para os artigos */
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.articles article img {
+    width: 100%;
+    max-height: 180px;
+    border-radius: 4px;
+}
+
+.articles article header {
+    margin-top: 12px;
+}
+
+.articles article time {
+    font-style: italic;
+    color: #888;
+}
+
+.articles article h3 {
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.articles article p {
+    margin-top: 8px;
+}
+
+.articles article a {
+    display: inline-block;
+    margin-top: 12px;
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
