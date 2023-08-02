@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+
+}
+p {
+    font-size: 1em;
+}
+
+header {
+    background-color: #2f3640;
+    color: #f5f6fa;
+    padding: 16px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f5f6fa;
+    background-color: #af1804;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.articles article img {
+    width: 100%;
+    max-height: 180px;
+    border-radius: 4px;
+}
+
+.articles article header {
+    margin-top: 12px;
+}
+
+.articles article h3 {
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.articles article p {
+    margin-top: 8px;
+}
+
+.articles article a {
+    display: inline-block;
+    margin-top: 12px;
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+section h2{
+    margin-left:50px;
+    font-size: 40px;
+
+}
+#tecnology {
+    background-color: grey;
+    margin-top: 50px;
+}
+#sports {
+    background-color: #90ee90;
+    margin-top: 50px;
+}
+#economy {
+    background-color: #66cdaa;
+    margin-top: 50px;
+}
+#entretein {
+    background-color: #e6e6fa;
+    margin-top: 50px;
+
+}
+#sports a {
+    background-color: #2e8b57;
+}
+#economy a {
+    background-color: #4169e1; 
+}
+
+#entretein a {
+    background-color: #ee82ee; 
+}
+#tecnology a {
+    background-color: #708090;
+}
